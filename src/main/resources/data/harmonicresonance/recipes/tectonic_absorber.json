@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MFM",
+    "ACA",
+    "MOM"
+  ],
+  "key": {
+    "A": {
+      "item": "harmonicresonance:activated_obsidian"
+    },
+    "O": {
+      "item": "harmonicresonance:contained_obsidian"
+    },
+    "C": {
+      "item": "harmonicresonance:contained_crying_obsidian"
+    },
+    "M": {
+      "item": "harmonicresonance:contained_magma"
+    },
+    "F": {
+      "item": "harmonicresonance:energy_focus"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:tectonic_absorber"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "NCN",
+    "SSS"
+  ],
+  "key": {
+    "N": {
+      "item": "harmonicresonance:contained_obsidian"
+    },
+    "F": {
+      "item": "harmonicresonance:energy_focus"
+    },
+    "C": {
+      "item": "harmonicresonance:somnolent_crystal"
+    },
+    "S": {
+      "item": "harmonicresonance:somnolent_stone_smooth"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:maker_activator"
+  }
+}

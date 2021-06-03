@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "harmonicresonance:tectonic_absorber"
+    ]
+  },
+  "criteria": {
+    "has_contained_magma": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "harmonicresonance:contained_magma"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "harmonicresonance:tectonic_absorber"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_contained_magma",
+      "has_the_recipe"
+    ]
+  ]
+}

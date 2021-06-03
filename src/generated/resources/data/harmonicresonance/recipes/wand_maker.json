@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MFM",
+    "MNM",
+    "RRR"
+  ],
+  "key": {
+    "N": {
+      "item": "harmonicresonance:contained_obsidian"
+    },
+    "F": {
+      "item": "harmonicresonance:energy_focus"
+    },
+    "R": {
+      "item": "harmonicresonance:runed_obsidian"
+    },
+    "M": {
+      "item": "harmonicresonance:magatamabead"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:wand_maker"
+  }
+}

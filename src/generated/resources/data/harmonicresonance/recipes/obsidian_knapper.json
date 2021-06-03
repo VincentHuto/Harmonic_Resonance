@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  P",
+    " N ",
+    "N  "
+  ],
+  "key": {
+    "N": {
+      "item": "harmonicresonance:null_rod"
+    },
+    "P": {
+      "item": "harmonicresonance:runed_obsidian"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:obsidian_knapper"
+  }
+}

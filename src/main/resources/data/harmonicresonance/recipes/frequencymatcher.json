@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" BO",
+		" SB",
+		"S  "
+	],
+	"key": {
+		"S": {
+			"item": "harmonicresonance:null_rod"
+		},
+		"O": {
+			"item": "harmonicresonance:gem_opal"
+		},
+		"B": {
+			"item": "harmonicresonance:upgrade_blank"
+		}
+	},
+	"result": {
+		"item": "harmonicresonance:frequency_matcher",
+		"count": 1
+	}
+}

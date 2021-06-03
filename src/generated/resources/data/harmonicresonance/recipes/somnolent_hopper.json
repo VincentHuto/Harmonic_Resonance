@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CHC",
+    "CAC",
+    " L "
+  ],
+  "key": {
+    "A": {
+      "item": "harmonicresonance:activated_obsidian"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "L": {
+      "item": "harmonicresonance:somnolent_log"
+    },
+    "C": {
+      "item": "harmonicresonance:channeling_ingot"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:somnolent_hopper"
+  }
+}

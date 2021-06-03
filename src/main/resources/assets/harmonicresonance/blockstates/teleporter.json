@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "harmonicresonance:block/teleporter"
+		},
+		"facing=south": {
+			"model": "harmonicresonance:block/teleporter",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "harmonicresonance:block/teleporter",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "harmonicresonance:block/teleporter",
+			"y": 90
+		}
+	}
+}

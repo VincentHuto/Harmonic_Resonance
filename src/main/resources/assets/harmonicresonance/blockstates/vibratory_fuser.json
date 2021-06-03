@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "harmonicresonance:block/vibratory_fuser"
+		},
+		"facing=south": {
+			"model": "harmonicresonance:block/vibratory_fuser",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "harmonicresonance:block/vibratory_fuser",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "harmonicresonance:block/vibratory_fuser",
+			"y": 90
+		}
+	}
+}

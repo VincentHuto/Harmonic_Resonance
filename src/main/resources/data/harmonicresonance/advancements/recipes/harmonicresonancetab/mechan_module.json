@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "harmonicresonance:mechan_module"
+    ]
+  },
+  "criteria": {
+    "has_auric_bar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "harmonicresonance:auric_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "harmonicresonance:mechan_module"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_auric_bar",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ERE",
+    "N N",
+    "NAN"
+  ],
+  "key": {
+    "A": {
+      "item": "harmonicresonance:activated_obsidian"
+    },
+    "E": {
+      "item": "harmonicresonance:energy_focus"
+    },
+    "N": {
+      "item": "harmonicresonance:contained_obsidian"
+    },
+    "R": {
+      "item": "harmonicresonance:runed_obsidian"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:vibratory_fuser"
+  }
+}

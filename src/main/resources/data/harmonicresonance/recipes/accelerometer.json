@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"EOE",
+		"RNR",
+		"AAA"
+	],
+	"key": {
+		"R": {
+			"item": "harmonicresonance:runed_obsidian"
+		},
+		"E": {
+			"item": "harmonicresonance:energy_focus"
+		},
+		"A": {
+			"item": "harmonicresonance:activated_obsidian"
+		},
+		"N": {
+			"item": "harmonicresonance:contained_obsidian"
+		},
+		"O": {
+			"item": "minecraft:obsidian"
+		}
+	},
+	"result": {
+		"item": "harmonicresonance:vibratory_accelerometer",
+		"count": 1
+	}
+}

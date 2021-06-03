@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "harmonicresonance:storming_agent"
+    ]
+  },
+  "criteria": {
+    "has_vitreous_humor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "harmonicresonance:vitreous_humor"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "harmonicresonance:storming_agent"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_vitreous_humor",
+      "has_the_recipe"
+    ]
+  ]
+}

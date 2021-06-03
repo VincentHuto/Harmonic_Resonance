@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"NFN",
+		"P P",
+		"AAA"
+	],
+	"key": {
+		"N": {
+			"item": "harmonicresonance:contained_obsidian"
+		},
+		"F": {
+			"item": "harmonicresonance:energy_focus"
+		},
+		"P": {
+			"item": "harmonicresonance:phantasmal_pane"
+		},
+		"A": {
+			"item": "harmonicresonance:activated_obsidian"
+		}
+	},
+	"result": {
+		"item": "harmonicresonance:vibratory_storage_drum",
+		"count": 1
+	}
+}

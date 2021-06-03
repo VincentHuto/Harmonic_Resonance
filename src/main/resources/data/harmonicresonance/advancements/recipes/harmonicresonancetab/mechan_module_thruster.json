@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "harmonicresonance:mechan_module_thruster"
+    ]
+  },
+  "criteria": {
+    "has_mechan_module": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "harmonicresonance:mechan_module"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "harmonicresonance:mechan_module_thruster"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mechan_module",
+      "has_the_recipe"
+    ]
+  ]
+}

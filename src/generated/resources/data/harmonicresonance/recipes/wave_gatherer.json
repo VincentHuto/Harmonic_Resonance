@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NMN",
+    "FNF",
+    "NGN"
+  ],
+  "key": {
+    "M": {
+      "item": "harmonicresonance:morel_cap"
+    },
+    "N": {
+      "item": "harmonicresonance:contained_obsidian"
+    },
+    "G": {
+      "item": "harmonicresonance:phantasmal_glass"
+    },
+    "F": {
+      "item": "harmonicresonance:energy_focus"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:wave_gatherer"
+  }
+}

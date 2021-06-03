@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column_horizontal",
+	"textures": {
+		"end": "harmonicresonance:block/anti_log_top",
+		"side": "harmonicresonance:block/anti_log"
+	}
+}

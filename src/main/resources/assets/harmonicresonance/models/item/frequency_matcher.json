@@ -1,0 +1,20 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "harmonicresonance:item/frequency_matcher"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"harmonicresonance:clear": 0
+			},
+			"model": "harmonicresonance:item/frequency_matcher"
+		},
+		{
+			"predicate": {
+				"harmonicresonance:clear": 1
+			},
+			"model": "harmonicresonance:item/frequency_matcher_clear"
+		}
+	]
+}

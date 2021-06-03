@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "harmonicresonance:purging_stone"
+    ]
+  },
+  "criteria": {
+    "has_karmic_drop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "harmonicresonance:karmic_drop"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "harmonicresonance:purging_stone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_karmic_drop",
+      "has_the_recipe"
+    ]
+  ]
+}

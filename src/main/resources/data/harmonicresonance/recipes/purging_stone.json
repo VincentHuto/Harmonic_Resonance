@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SAS",
+    "SKS",
+    "SSS"
+  ],
+  "key": {
+    "K": {
+      "tag": "forge:stone"
+    },
+    "S": {
+      "item": "harmonicresonance:karmic_drop"
+    },
+    "A": {
+      "item": "harmonicresonance:nullifying_powder"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:purging_stone"
+  }
+}

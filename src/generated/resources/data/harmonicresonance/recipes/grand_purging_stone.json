@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SKS",
+    "SSS"
+  ],
+  "key": {
+    "K": {
+      "item": "harmonicresonance:purging_stone"
+    },
+    "S": {
+      "item": "harmonicresonance:karmic_drop"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:grand_purging_stone"
+  }
+}

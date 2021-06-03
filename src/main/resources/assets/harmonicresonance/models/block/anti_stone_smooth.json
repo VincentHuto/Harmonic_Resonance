@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "harmonicresonance:block/anti_stone_smooth"
+   }
+}

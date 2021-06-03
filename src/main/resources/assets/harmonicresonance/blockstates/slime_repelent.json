@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "harmonicresonance:block/slime_repelent"
+		},
+		"facing=south": {
+			"model": "harmonicresonance:block/slime_repelent",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "harmonicresonance:block/slime_repelent",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "harmonicresonance:block/slime_repelent",
+			"y": 90
+		}
+	}
+}

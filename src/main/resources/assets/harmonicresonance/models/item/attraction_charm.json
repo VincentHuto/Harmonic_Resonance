@@ -1,0 +1,20 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "harmonicresonance:item/attraction_charm"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"harmonicresonance:on": 0
+			},
+			"model": "harmonicresonance:item/attraction_charm"
+		},
+		{
+			"predicate": {
+				"harmonicresonance:on": 1
+			},
+			"model": "harmonicresonance:item/attraction_charm_on"
+		}
+	]
+}

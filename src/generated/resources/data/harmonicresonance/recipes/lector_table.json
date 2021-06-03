@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MOM",
+    "SCS",
+    "A A"
+  ],
+  "key": {
+    "M": {
+      "item": "harmonicresonance:contained_magma"
+    },
+    "C": {
+      "item": "harmonicresonance:contained_obsidian"
+    },
+    "O": {
+      "item": "harmonicresonance:opal_block"
+    },
+    "S": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "A": {
+      "item": "harmonicresonance:activated_obsidian"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:lector_table"
+  }
+}

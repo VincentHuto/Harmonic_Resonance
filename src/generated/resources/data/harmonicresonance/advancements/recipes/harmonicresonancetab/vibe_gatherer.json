@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "harmonicresonance:vibe_gatherer"
+    ]
+  },
+  "criteria": {
+    "has_contained_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "harmonicresonance:contained_obsidian"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "harmonicresonance:vibe_gatherer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_contained_obsidian",
+      "has_the_recipe"
+    ]
+  ]
+}

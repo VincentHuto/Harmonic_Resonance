@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "harmonicresonance:block/vibratory_capacitor"
+		},
+		"facing=south": {
+			"model": "harmonicresonance:block/vibratory_capacitor",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "harmonicresonance:block/vibratory_capacitor",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "harmonicresonance:block/vibratory_capacitor",
+			"y": 90
+		}
+	}
+}

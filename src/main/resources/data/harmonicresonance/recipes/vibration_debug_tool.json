@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EUE",
+    " C ",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "harmonicresonance:channeling_ingot"
+    },
+    "U": {
+      "item": "harmonicresonance:upgrade_blank"
+    },
+    "E": {
+      "item": "harmonicresonance:essence_drop"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:vibration_debug_tool"
+  }
+}

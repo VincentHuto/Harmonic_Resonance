@@ -1,0 +1,31 @@
+
+{
+	"variants": {
+		"facing=down": {
+			"model": "harmonicresonance:block/raw_hematite",
+			"x": 180
+		},
+		"facing=east": {
+			"model": "harmonicresonance:block/raw_hematite",
+			"x": 90,
+			"y": 90
+		},
+		"facing=north": {
+			"model": "harmonicresonance:block/raw_hematite",
+			"x": 90
+		},
+		"facing=south": {
+			"model": "harmonicresonance:block/raw_hematite",
+			"x": 90,
+			"y": 180
+		},
+		"facing=up": {
+			"model": "harmonicresonance:block/raw_hematite"
+		},
+		"facing=west": {
+			"model": "harmonicresonance:block/raw_hematite",
+			"x": 90,
+			"y": 270
+		}
+	}
+}

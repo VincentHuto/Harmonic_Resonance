@@ -1,0 +1,20 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "harmonicresonance:item/harmonic_imprint"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"harmonicresonance:saved": 0
+			},
+			"model": "harmonicresonance:item/harmonic_imprint"
+		},
+		{
+			"predicate": {
+				"harmonicresonance:saved": 1
+			},
+			"model": "harmonicresonance:item/harmonic_imprint_saved"
+		}
+	]
+}

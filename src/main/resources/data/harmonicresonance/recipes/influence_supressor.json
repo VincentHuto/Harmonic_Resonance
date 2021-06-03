@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "PIP",
+    "I I"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "P": {
+      "item": "harmonicresonance:phantasmal_pane"
+    },
+    "I": {
+      "item": "harmonicresonance:null_ingot"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:influence_supressor"
+  }
+}

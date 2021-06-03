@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "harmonicresonance:anti_log"
+    }
+  ],
+  "result": {
+    "item": "harmonicresonance:anti_planks",
+    "count": 4
+  }
+}

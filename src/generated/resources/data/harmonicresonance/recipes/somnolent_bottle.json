@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "harmonicresonance:passion_flower"
+    },
+    {
+      "item": "harmonicresonance:akebi"
+    },
+    {
+      "item": "harmonicresonance:somnolent_powder"
+    },
+    {
+      "item": "harmonicresonance:somnolent_powder"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "harmonicresonance:somnolent_bottle"
+  }
+}

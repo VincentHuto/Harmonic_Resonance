@@ -1,0 +1,6 @@
+{
+   "parent": "item/generated",
+   "textures": {
+       "layer0": "harmonicresonance:item/slime_charm_on"
+   }
+}

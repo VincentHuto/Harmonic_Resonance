@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NAN",
+    "AFA",
+    "LFL"
+  ],
+  "key": {
+    "N": {
+      "item": "harmonicresonance:contained_obsidian"
+    },
+    "A": {
+      "item": "harmonicresonance:activated_obsidian"
+    },
+    "L": {
+      "item": "harmonicresonance:somnolent_log"
+    },
+    "F": {
+      "item": "harmonicresonance:energy_focus"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:vibe_concentrator"
+  }
+}

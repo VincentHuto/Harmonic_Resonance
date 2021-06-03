@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "harmonicresonance:anti_planks"
+    ]
+  },
+  "criteria": {
+    "has_anti_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "harmonicresonance:anti_log"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "harmonicresonance:anti_planks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_anti_log",
+      "has_the_recipe"
+    ]
+  ]
+}

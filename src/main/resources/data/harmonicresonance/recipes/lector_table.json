@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MOM",
+    "SCS",
+    "AGA"
+  ],
+  "key": {
+    "G": {
+      "item": "harmonicresonance:gilded_wool"
+    },
+    "M": {
+      "item": "harmonicresonance:contained_magma"
+    },
+    "C": {
+      "item": "harmonicresonance:contained_obsidian"
+    },
+    "O": {
+      "item": "harmonicresonance:opal_block"
+    },
+    "S": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "A": {
+      "item": "harmonicresonance:activated_obsidian"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:lector_table"
+  }
+}
