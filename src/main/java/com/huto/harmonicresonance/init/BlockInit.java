@@ -17,6 +17,7 @@ import com.huto.harmonicresonance.block.vibe.BlockSomnolentHopper;
 import com.huto.harmonicresonance.block.vibe.BlockStorageDrum;
 import com.huto.harmonicresonance.block.vibe.BlockVibeAbsorber;
 import com.huto.harmonicresonance.block.vibe.func.BlockAutoInscriber;
+import com.huto.harmonicresonance.block.vibe.func.BlockCelestialActuator;
 import com.huto.harmonicresonance.block.vibe.func.BlockCrystalHarmonizer;
 import com.huto.harmonicresonance.block.vibe.func.BlockKarmicExtractor;
 import com.huto.harmonicresonance.block.vibe.func.BlockLectorTable;
@@ -228,6 +229,11 @@ public class BlockInit {
 	public static final RegistryObject<Block> vibratory_fuser = BLOCKS.register("vibratory_fuser",
 			() -> new BlockVibeFuser(
 					Block.Properties.create(Material.ROCK).hardnessAndResistance(50f, 1500f).sound(SoundType.STONE)));
+
+	public static final RegistryObject<Block> celestial_actuator = BLOCKS.register("celestial_actuator",
+			() -> new BlockCelestialActuator(
+					Block.Properties.create(Material.ROCK).hardnessAndResistance(50f, 1500f).sound(SoundType.STONE)));
+
 	public static final RegistryObject<Block> vibe_absorber = BLOCKS.register("vibe_absorber",
 			() -> new BlockVibeAbsorber(
 					Block.Properties.create(Material.ROCK).hardnessAndResistance(50f, 1500f).sound(SoundType.STONE)));

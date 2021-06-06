@@ -1,5 +1,5 @@
 /*
-package com.huto.forcesofreality.integration.jei.catagories;
+package com.huto.harmonicresonance.integration.jei.catagories;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,10 +8,10 @@ import java.util.List;
 import javax.annotation.Nonnull;
 
 import com.google.common.collect.Lists;
-import com.huto.forcesofreality.HarmonicResonance;
-import com.huto.forcesofreality.gui.pages.GuiButtonTextured;
-import com.huto.forcesofreality.init.BlockInit;
-import com.huto.forcesofreality.recipes.RecipeChiselStation;
+import com.huto.harmonicresonance.HarmonicResonance;
+import com.huto.harmonicresonance.gui.pages.GuiButtonTextured;
+import com.huto.harmonicresonance.init.BlockInit;
+import com.huto.harmonicresonance.recipes.RecipeChiselStation;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.platform.GlStateManager;
 
@@ -36,8 +36,8 @@ public class ChiselRecipeCategory implements IRecipeCategory<RecipeChiselStation
 
 	public ChiselRecipeCategory(IGuiHelper guiHelper) {
 		background = guiHelper.createBlankDrawable(150, 110);
-		localizedName = I18n.format("forcesofreality.jei.chisel_station");
-		overlay = guiHelper.createDrawable(new ResourceLocation("forcesofreality", "textures/gui/chiseloverlay.png"), 0, 0,
+		localizedName = I18n.format("harmonicresonance.jei.chisel_station");
+		overlay = guiHelper.createDrawable(new ResourceLocation("harmonicresonance", "textures/gui/chiseloverlay.png"), 0, 0,
 				150, 110);
 		icon = guiHelper.createDrawableIngredient(new ItemStack(BlockInit.runic_chisel_station.get()));
 

@@ -40,7 +40,7 @@ public class RenderLectorTable extends TileEntityRenderer<TileEntityLectorTable>
 	public void render(TileEntityLectorTable te, float partialTicks, MatrixStack matrixStackIn,
 			IRenderTypeBuffer bufferIn, int combinedLightIn, int combinedOverlayIn) {
 		ResourceLocation GLASSTEXTURE = new ResourceLocation(HarmonicResonance.MOD_ID,
-				"textures/blocks/lector_square.png");
+				"textures/block/lector_square.png");
 
 		matrixStackIn.push();
 		IVertexBuilder builder = bufferIn.getBuffer(RenderType.getEntityTranslucent(GLASSTEXTURE));

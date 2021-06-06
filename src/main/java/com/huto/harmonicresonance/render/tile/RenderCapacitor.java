@@ -158,7 +158,7 @@ public class RenderCapacitor extends TileEntityRenderer<TileEntityCapacitor> {
 					.getImpl(Tessellator.getInstance().getBuffer());
 			IVertexBuilder ivertexbuilder = irendertypebuffer$impl.getBuffer(magatamas
 					.getRenderType(
-							new ResourceLocation(HarmonicResonance.MOD_ID + ":textures/blocks/end_portal_red.png")));
+							new ResourceLocation(HarmonicResonance.MOD_ID + ":textures/block/end_portal_red.png")));
 			magatamas.render(matrixStackIn, ivertexbuilder, 15728880, OverlayTexture.NO_OVERLAY, 1.0F, 1.0F, 1.0F,
 					1.0F);
 			irendertypebuffer$impl.finish();

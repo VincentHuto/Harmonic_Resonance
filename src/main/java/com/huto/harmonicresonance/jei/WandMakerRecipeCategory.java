@@ -38,9 +38,9 @@ public class WandMakerRecipeCategory implements IRecipeCategory<RecipeWandMaker>
 
 	public WandMakerRecipeCategory(IGuiHelper guiHelper) {
 		background = guiHelper.createBlankDrawable(150, 110);
-		localizedName = I18n.format("forcesofreality.jei.wandmaker");
+		localizedName = I18n.format("harmonicresonance.jei.wandmaker");
 		overlay = guiHelper.createDrawable(
-				new ResourceLocation("forcesofreality", "textures/gui/wand_maker_overlay.png"), 0, 0, 150, 110);
+				new ResourceLocation("harmonicresonance", "textures/gui/wand_maker_overlay.png"), 0, 0, 150, 110);
 		icon = guiHelper.createDrawableIngredient(new ItemStack(BlockInit.wand_maker.get()));
 	}
 

@@ -40,8 +40,8 @@ public class ResonatorRecipeCategory implements IRecipeCategory<RecipeResonator>
 
 	public ResonatorRecipeCategory(IGuiHelper guiHelper) {
 		background = guiHelper.createBlankDrawable(150, 110);
-		localizedName = I18n.format("forcesofreality.jei.resonator");
-		overlay = guiHelper.createDrawable(new ResourceLocation("forcesofreality", "textures/gui/resonatoroverlay.png"),
+		localizedName = I18n.format("harmonicresonance.jei.resonator");
+		overlay = guiHelper.createDrawable(new ResourceLocation("harmonicresonance", "textures/gui/resonatoroverlay.png"),
 				0, 0, 150, 110);
 		icon = guiHelper.createDrawableIngredient(new ItemStack(BlockInit.vibe_resonator.get()));
 	}

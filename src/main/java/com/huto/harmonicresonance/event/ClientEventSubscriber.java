@@ -11,6 +11,7 @@ import com.huto.harmonicresonance.render.item.RenderManaDustItem;
 import com.huto.harmonicresonance.render.tile.RenderAbsorber;
 import com.huto.harmonicresonance.render.tile.RenderAutoInscriber;
 import com.huto.harmonicresonance.render.tile.RenderCapacitor;
+import com.huto.harmonicresonance.render.tile.RenderCelestialActuator;
 import com.huto.harmonicresonance.render.tile.RenderCrystalHarmonizer;
 import com.huto.harmonicresonance.render.tile.RenderKarmicAltar;
 import com.huto.harmonicresonance.render.tile.RenderKarmicExtractor;
@@ -61,6 +62,8 @@ public class ClientEventSubscriber {
 		ClientRegistry.bindTileEntityRenderer(TileEntityInit.teleporter.get(), RenderTeleporter::new);
 		ClientRegistry.bindTileEntityRenderer(TileEntityInit.lector_table.get(), RenderLectorTable::new);
 		ClientRegistry.bindTileEntityRenderer(TileEntityInit.crystal_harmonizer.get(), RenderCrystalHarmonizer::new);
+		ClientRegistry.bindTileEntityRenderer(TileEntityInit.celestial_actuator.get(), RenderCelestialActuator::new);
+
 		ScreenManager.registerFactory(ContainerInit.virtuous_enchanter.get(), GuiVirtuousEnchanter::new);
 
 		// ScreenManager.registerFactory(ContainerInit.runic_chisel_station.get(),

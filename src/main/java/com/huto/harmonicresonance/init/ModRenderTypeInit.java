@@ -26,9 +26,9 @@ public class ModRenderTypeInit extends RenderType {
 	private final static ResourceLocation laserBeamGlow = new ResourceLocation(
 			HarmonicResonance.MOD_ID + ":textures/misc/laser_glow.png");
 	private final static ResourceLocation orbTrans = new ResourceLocation(
-			HarmonicResonance.MOD_ID + ":textures/blocks/sphere_outside_trans.png");
+			HarmonicResonance.MOD_ID + ":textures/block/sphere_outside_trans.png");
 	private final static ResourceLocation end_trans = new ResourceLocation(
-			HarmonicResonance.MOD_ID + ":textures/blocks/end_portal.png");
+			HarmonicResonance.MOD_ID + ":textures/block/end_portal.png");
 
 	public ModRenderTypeInit(String nameIn, VertexFormat formatIn, int drawModeIn, int bufferSizeIn,
 			boolean useDelegateIn, boolean needsSortingIn, Runnable setupTaskIn, Runnable clearTaskIn) {

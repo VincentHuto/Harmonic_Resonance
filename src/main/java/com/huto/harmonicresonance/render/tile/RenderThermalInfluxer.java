@@ -35,7 +35,7 @@ public class RenderThermalInfluxer extends TileEntityRenderer<TileEntityThermalI
 		IRenderTypeBuffer.Impl irendertypebuffer$impl = IRenderTypeBuffer
 				.getImpl(Tessellator.getInstance().getBuffer());
 		IVertexBuilder ivertexbuilder = irendertypebuffer$impl.getBuffer(cube
-				.getRenderType(new ResourceLocation(HarmonicResonance.MOD_ID + ":textures/blocks/end_portal_red.png")));
+				.getRenderType(new ResourceLocation(HarmonicResonance.MOD_ID + ":textures/block/end_portal_red.png")));
 		cube.render(matrixStackIn, ivertexbuilder, 15728880, OverlayTexture.NO_OVERLAY, 1.0F, 1.0F, 1.0F, 1.0F);
 		irendertypebuffer$impl.finish();
 		matrixStackIn.pop();
@@ -49,7 +49,7 @@ public class RenderThermalInfluxer extends TileEntityRenderer<TileEntityThermalI
 		IRenderTypeBuffer.Impl irendertypebuffer$impl1 = IRenderTypeBuffer
 				.getImpl(Tessellator.getInstance().getBuffer());
 		IVertexBuilder ivertexbuilder1 = irendertypebuffer$impl1.getBuffer(cube
-				.getRenderType(new ResourceLocation(HarmonicResonance.MOD_ID + ":textures/blocks/end_portal_red.png")));
+				.getRenderType(new ResourceLocation(HarmonicResonance.MOD_ID + ":textures/block/end_portal_red.png")));
 		cube.render(matrixStackIn, ivertexbuilder1, 15728880, OverlayTexture.NO_OVERLAY, 1.0F, 1.0F, 1.0F, 1.0F);
 		irendertypebuffer$impl1.finish();
 		matrixStackIn.pop();

@@ -36,7 +36,7 @@ public class RenderKarmicExtractor extends TileEntityRenderer<TileEntityKarmicEx
 		IRenderTypeBuffer.Impl irendertypebuffer$impl = IRenderTypeBuffer
 				.getImpl(Tessellator.getInstance().getBuffer());
 		IVertexBuilder ivertexbuilder = irendertypebuffer$impl.getBuffer(
-				cube.getRenderType(new ResourceLocation(HarmonicResonance.MOD_ID + ":textures/blocks/end_portal.png")));
+				cube.getRenderType(new ResourceLocation(HarmonicResonance.MOD_ID + ":textures/block/end_portal.png")));
 		cube.render(matrixStackIn, ivertexbuilder, 15728880, OverlayTexture.NO_OVERLAY, 1.0F, 1.0F, 1.0F, 1.5F);
 		irendertypebuffer$impl.finish();
 		matrixStackIn.pop();
@@ -49,7 +49,7 @@ public class RenderKarmicExtractor extends TileEntityRenderer<TileEntityKarmicEx
 		IRenderTypeBuffer.Impl irendertypebuffer$impl1 = IRenderTypeBuffer
 				.getImpl(Tessellator.getInstance().getBuffer());
 		IVertexBuilder ivertexbuilder1 = irendertypebuffer$impl1.getBuffer(
-				cube.getRenderType(new ResourceLocation(HarmonicResonance.MOD_ID + ":textures/blocks/end_portal.png")));
+				cube.getRenderType(new ResourceLocation(HarmonicResonance.MOD_ID + ":textures/block/end_portal.png")));
 		cube.render(matrixStackIn, ivertexbuilder1, 15728880, OverlayTexture.NO_OVERLAY, 1.0F, 1.0F, 1.0F, 1.5F);
 		irendertypebuffer$impl1.finish();
 		matrixStackIn.pop();

@@ -37,9 +37,9 @@ public class AutoInscriberRecipeCategory implements IRecipeCategory<RecipeAutoIn
 
 	public AutoInscriberRecipeCategory(IGuiHelper guiHelper) {
 		background = guiHelper.createBlankDrawable(150, 110);
-		localizedName = I18n.format("forcesofreality.jei.auto_inscriber");
+		localizedName = I18n.format("harmonicresonance.jei.auto_inscriber");
 		overlay = guiHelper.createDrawable(
-				new ResourceLocation("forcesofreality", "textures/gui/auto_inscriber_overlay.png"), 0, 0, 150, 110);
+				new ResourceLocation("harmonicresonance", "textures/gui/auto_inscriber_overlay.png"), 0, 0, 150, 110);
 		icon = guiHelper.createDrawableIngredient(new ItemStack(BlockInit.auto_inscriber.get()));
 	}
 

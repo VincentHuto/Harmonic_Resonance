@@ -123,13 +123,13 @@ public class RenderAbsorber extends TileEntityRenderer<TileEntityAbsorber> {
 		matrixStackIn.scale(0.5f, 0.5f, 0.5f);
 
 		ResourceLocation textureExport = new ResourceLocation(
-				HarmonicResonance.MOD_ID + ":textures/blocks/end_portal_red.png");
+				HarmonicResonance.MOD_ID + ":textures/block/end_portal_red.png");
 		ResourceLocation textureImport = new ResourceLocation(
-				HarmonicResonance.MOD_ID + ":textures/blocks/end_portal_blue.png");
+				HarmonicResonance.MOD_ID + ":textures/block/end_portal_blue.png");
 		ResourceLocation textureDefault = new ResourceLocation(
-				HarmonicResonance.MOD_ID + ":textures/blocks/end_portal_default.png");
+				HarmonicResonance.MOD_ID + ":textures/block/end_portal_default.png");
 		ResourceLocation textureBoth = new ResourceLocation(
-				HarmonicResonance.MOD_ID + ":textures/blocks/end_portal_purple.png");
+				HarmonicResonance.MOD_ID + ":textures/block/end_portal_purple.png");
 		ResourceLocation textureMode;
 
 		// Switch Textures

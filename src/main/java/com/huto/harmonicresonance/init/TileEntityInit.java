@@ -7,6 +7,7 @@ import com.huto.harmonicresonance.tile.TileEntitySlimeRepelent;
 import com.huto.harmonicresonance.tile.vibration.TileEntityTeleporter;
 import com.huto.harmonicresonance.tile.vibration.TileEntityVirtuousEnchant;
 import com.huto.harmonicresonance.tile.vibration.func.TileEntityAutoInscriber;
+import com.huto.harmonicresonance.tile.vibration.func.TileEntityCelestialActuator;
 import com.huto.harmonicresonance.tile.vibration.func.TileEntityCrystalHarmonizer;
 import com.huto.harmonicresonance.tile.vibration.func.TileEntityKarmicAltar;
 import com.huto.harmonicresonance.tile.vibration.func.TileEntityKarmicExtractor;
@@ -78,6 +79,11 @@ public class TileEntityInit {
 	public static final RegistryObject<TileEntityType<TileEntityVibeFuser>> vibratory_fuser = TILES.register(
 			"vibratory_fuser",
 			() -> TileEntityType.Builder.create(TileEntityVibeFuser::new, BlockInit.vibratory_fuser.get()).build(null));
+
+	public static final RegistryObject<TileEntityType<TileEntityCelestialActuator>> celestial_actuator = TILES
+			.register("celestial_actuator", () -> TileEntityType.Builder
+					.create(TileEntityCelestialActuator::new, BlockInit.celestial_actuator.get()).build(null));
+
 	public static final RegistryObject<TileEntityType<TileEntityAbsorber>> vibe_absorber = TILES.register(
 			"vibe_absorber",
 			() -> TileEntityType.Builder.create(TileEntityAbsorber::new, BlockInit.vibe_absorber.get()).build(null));

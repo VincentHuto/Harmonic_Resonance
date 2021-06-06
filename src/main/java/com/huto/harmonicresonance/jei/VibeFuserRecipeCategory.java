@@ -38,8 +38,8 @@ public class VibeFuserRecipeCategory implements IRecipeCategory<RecipeFuser> {
 
 	public VibeFuserRecipeCategory(IGuiHelper guiHelper) {
 		background = guiHelper.createBlankDrawable(150, 110);
-		localizedName = I18n.format("forcesofreality.jei.vibefuser");
-		overlay = guiHelper.createDrawable(new ResourceLocation("forcesofreality", "textures/gui/fuseroverlay.png"), 0,
+		localizedName = I18n.format("harmonicresonance.jei.vibefuser");
+		overlay = guiHelper.createDrawable(new ResourceLocation("harmonicresonance", "textures/gui/fuseroverlay.png"), 0,
 				0, 150, 110);
 		icon = guiHelper.createDrawableIngredient(new ItemStack(BlockInit.vibratory_fuser.get()));
 	}

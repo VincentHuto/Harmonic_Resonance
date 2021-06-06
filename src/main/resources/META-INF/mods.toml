@@ -14,7 +14,7 @@ modId="harmonicresonance" #mandatory
 version="1.0" #mandatory
 
  # A display name for the mod
-displayName="Forces of Reality" #mandatory
+displayName="Harmonic Resonance" #mandatory
 
 # A URL to query for updates for this mod. See the JSON update specification <here>
 updateJSONURL="http://myurl.me/" #optional
