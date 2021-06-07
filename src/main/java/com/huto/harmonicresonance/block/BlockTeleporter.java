@@ -7,7 +7,7 @@ import com.huto.harmonicresonance.item.ItemHarmonicImprint;
 import com.huto.harmonicresonance.tile.vibration.TileEntityTeleporter;
 import com.hutoslib.common.VanillaPacketDispatcher;
 import com.hutoslib.math.DimensionalPosition;
-import com.hutoslib.util.TextUtils;
+import com.hutoslib.client.TextUtils;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

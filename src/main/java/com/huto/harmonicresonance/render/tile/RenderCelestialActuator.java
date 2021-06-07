@@ -25,6 +25,7 @@ public class RenderCelestialActuator extends TileEntityRenderer<TileEntityCelest
 		super(rendererDispatcherIn);
 	}
 
+	@SuppressWarnings("unused")
 	@Override
 	public void render(TileEntityCelestialActuator te, float partialTicks, MatrixStack matrixStackIn,
 			IRenderTypeBuffer bufferIn, int combinedLightIn, int combinedOverlayIn) {

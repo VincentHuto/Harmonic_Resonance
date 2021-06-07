@@ -14,7 +14,7 @@ import com.huto.harmonicresonance.init.TileEntityInit;
 import com.huto.harmonicresonance.tile.util.IExportableTile;
 import com.huto.harmonicresonance.tile.vibration.TileVibeSimpleInventory;
 import com.huto.harmonicresonance.tile.vibration.gen.TileEntityAbsorber;
-import com.hutoslib.client.particle.ParticleColor;
+import com.hutoslib.client.particle.util.ParticleColor;
 import com.hutoslib.common.HutosLibPacketHandler;
 import com.hutoslib.common.VanillaPacketDispatcher;
 

@@ -3,8 +3,8 @@ package com.huto.harmonicresonance.block;
 import java.util.Random;
 
 import com.huto.harmonicresonance.init.BlockInit;
-import com.hutoslib.client.particle.ParticleColor;
-import com.hutoslib.client.particles.factory.GlowParticleFactory;
+import com.hutoslib.client.particle.util.ParticleColor;
+import com.hutoslib.client.particle.factory.GlowParticleFactory;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;

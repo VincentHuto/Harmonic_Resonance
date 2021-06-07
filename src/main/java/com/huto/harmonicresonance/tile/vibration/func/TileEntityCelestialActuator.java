@@ -168,6 +168,7 @@ public class TileEntityCelestialActuator extends TileModVibes implements ITickab
 				System.out.println("t");
 
 				Vector3 vec = Vector3.fromTileEntityCenter(this).add(0, 0.1, 0);
+				@SuppressWarnings("unused")
 				Vector3 endVec = vec.add(0, 0.5, 0);
 				this.getVibeCap().subtractVibes(10);
 				cooldown = 10;

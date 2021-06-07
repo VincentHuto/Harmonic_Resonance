@@ -6,8 +6,8 @@ import java.util.stream.Stream;
 import javax.annotation.Nonnull;
 
 import com.huto.harmonicresonance.tile.vibration.func.TileEntityVibeConcetrator;
-import com.hutoslib.client.particle.ParticleColor;
-import com.hutoslib.client.particles.factory.GlowParticleFactory;
+import com.hutoslib.client.particle.util.ParticleColor;
+import com.hutoslib.client.particle.factory.GlowParticleFactory;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

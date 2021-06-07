@@ -5,7 +5,7 @@ import com.huto.harmonicresonance.init.BlockInit;
 import com.huto.harmonicresonance.init.EnchantmentInit;
 import com.huto.harmonicresonance.init.EntityInit;
 import com.huto.harmonicresonance.init.ItemInit;
-import com.hutoslib.util.TextUtils;
+import com.hutoslib.client.TextUtils;
 
 import net.minecraft.block.Block;
 import net.minecraft.data.DataGenerator;

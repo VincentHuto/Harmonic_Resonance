@@ -12,7 +12,7 @@ import com.huto.harmonicresonance.HarmonicResonance;
 import com.huto.harmonicresonance.init.ItemInit;
 import com.hutoslib.client.gui.GuiButtonTextured;
 import com.hutoslib.client.gui.GuiUtils;
-import com.hutoslib.util.ClientUtils;
+import com.hutoslib.client.ClientUtils;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.platform.GlStateManager;
 
