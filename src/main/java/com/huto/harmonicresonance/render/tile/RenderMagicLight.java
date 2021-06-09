@@ -1,4 +1,4 @@
-package com.huto.harmonicresonance.tile.vibration;
+package com.huto.harmonicresonance.render.tile;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,7 +7,7 @@ import java.util.List;
 import com.huto.harmonicresonance.tile.TileEntityMagicLight;
 import com.hutoslib.client.particle.util.ParticleColor;
 import com.hutoslib.client.particle.util.ParticleUtils;
-import com.hutoslib.client.particle.factory.GlowParticleFactory;
+import com.hutoslib.client.particle.factory.EmberParticleFactory;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 import net.minecraft.client.renderer.IRenderTypeBuffer;
@@ -35,11 +35,11 @@ public class RenderMagicLight extends TileEntityRenderer<TileEntityMagicLight> {
 		double time = world.getGameTime() * 0.2f;
 		// Random rand = world.rand;
 		for (int j = 0; j < chakraColors.size(); j++) {
-			world.addParticle(GlowParticleFactory.createData(chakraColors.get(j)),
+			world.addParticle(EmberParticleFactory.createData(chakraColors.get(j), 1, 0.35f, 135),
 					pos.getX() + 0.5 + Math.sin(time + j) + ParticleUtils.inRange(-0.1, 0.1),
 					pos.getY() + (j * 0.5) + 0.1f + ParticleUtils.inRange(-0.1, 0.1),
 					pos.getZ() + 0.5 + Math.cos(time + j) + ParticleUtils.inRange(-0.1, 0.1), 0, -0.05, 0);
-			world.addParticle(GlowParticleFactory.createData(chakraColors.get(j)),
+			world.addParticle(EmberParticleFactory.createData(chakraColors.get(j), 1, 0.35f, 135),
 					pos.getX() + 0.5 + Math.sin(time + j) + ParticleUtils.inRange(-0.1, 0.1),
 					pos.getY() + (j * 0.5) + 0.1f + ParticleUtils.inRange(-0.1, 0.1),
 					pos.getZ() + 0.5 + Math.cos(time + j) + ParticleUtils.inRange(-0.1, 0.1), 0, 0.005, 0);

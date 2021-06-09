@@ -1,6 +1,7 @@
-package com.huto.harmonicresonance.tile.vibration;
+package com.huto.harmonicresonance.render.tile;
 
 import com.huto.harmonicresonance.HarmonicResonance;
+import com.huto.harmonicresonance.tile.vibration.TileEntityVirtuousEnchant;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 

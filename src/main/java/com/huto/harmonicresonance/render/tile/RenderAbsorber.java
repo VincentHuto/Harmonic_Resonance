@@ -6,16 +6,20 @@ import java.util.Set;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.SetMultimap;
 import com.huto.harmonicresonance.HarmonicResonance;
+import com.huto.harmonicresonance.event.ClientEventSubscriber;
+import com.huto.harmonicresonance.init.ItemInit;
 import com.huto.harmonicresonance.init.ModRenderTypeInit;
 import com.huto.harmonicresonance.model.block.ModelDrumMagatama;
 import com.huto.harmonicresonance.model.block.ModelFloatingCube;
 import com.huto.harmonicresonance.tile.util.EnumAbsorberStates;
 import com.huto.harmonicresonance.tile.vibration.gen.TileEntityAbsorber;
+import com.hutoslib.client.ClientUtils;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 
 import net.minecraft.block.DirectionalBlock;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.entity.player.ClientPlayerEntity;
 import net.minecraft.client.renderer.FaceDirection;
 import net.minecraft.client.renderer.IRenderTypeBuffer;
 import net.minecraft.client.renderer.Tessellator;
@@ -236,7 +240,13 @@ public class RenderAbsorber extends TileEntityRenderer<TileEntityAbsorber> {
 			Vector3f endLaser = new Vector3f(diffX, diffY, diffZ);
 			Vector3f sortPos = new Vector3f(source.getX(), source.getY(), source.getZ());
 			Matrix4f positionMatrix = matrixStackIn.getLast().getMatrix();
-			drawLaser(builder, positionMatrix, endLaser, startLaser, r, g, b, 1f, 0.025f, v, v + diffY * -5.5, sortPos);
+			PlayerEntity player = ClientUtils.getClientPlayer();
+			if (player.getHeldItemMainhand().getItem() == ItemInit.absorber_configurer.get()
+					|| player.getHeldItemMainhand().getItem() == ItemInit.frequency_matcher.get()
+					|| player.inventory.armorItemInSlot(3).getItem() == ItemInit.vibrational_seer.get()) {
+				drawLaser(builder, positionMatrix, endLaser, startLaser, r, g, b, 1f, 0.025f, v, v + diffY * -5.5,
+						sortPos);
+			}
 			matrixStackIn.pop();
 		});
 		matrixStackIn.pop();

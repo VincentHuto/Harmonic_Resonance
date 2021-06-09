@@ -32,14 +32,10 @@ public class SeerEventHandler {
 			return; // just in case
 
 		boolean foundOnHead = false;
-		for (int i = 0; i < 103; ++i) {
 			ItemStack slotItemStack = entityPlayerSP.inventory.armorItemInSlot(3);
 			if (slotItemStack.getItem() == ItemInit.vibrational_seer.get()) {
-
 				foundOnHead = true;
-				break;
 			}
-		}
 		if (!foundOnHead)
 			return;
 
