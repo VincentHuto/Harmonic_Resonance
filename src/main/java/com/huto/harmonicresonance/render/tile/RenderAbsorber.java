@@ -6,7 +6,6 @@ import java.util.Set;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.SetMultimap;
 import com.huto.harmonicresonance.HarmonicResonance;
-import com.huto.harmonicresonance.event.ClientEventSubscriber;
 import com.huto.harmonicresonance.init.ItemInit;
 import com.huto.harmonicresonance.init.ModRenderTypeInit;
 import com.huto.harmonicresonance.model.block.ModelDrumMagatama;
@@ -19,7 +18,6 @@ import com.mojang.blaze3d.vertex.IVertexBuilder;
 
 import net.minecraft.block.DirectionalBlock;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.entity.player.ClientPlayerEntity;
 import net.minecraft.client.renderer.FaceDirection;
 import net.minecraft.client.renderer.IRenderTypeBuffer;
 import net.minecraft.client.renderer.Tessellator;
