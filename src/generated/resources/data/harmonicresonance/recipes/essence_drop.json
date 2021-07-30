@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "harmonicresonance:somnolent_powder"
+    }
+  ],
+  "result": {
+    "item": "harmonicresonance:essence_drop",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GEG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "E": {
+      "item": "harmonicresonance:essence_drop"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:vibrational_seer"
+  }
+}

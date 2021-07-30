@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "harmonicresonance:block/vibratory_accelerometer"
+		},
+		"facing=south": {
+			"model": "harmonicresonance:block/vibratory_accelerometer",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "harmonicresonance:block/vibratory_accelerometer",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "harmonicresonance:block/vibratory_accelerometer",
+			"y": 90
+		}
+	}
+}

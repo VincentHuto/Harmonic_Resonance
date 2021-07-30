@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" EQ",
+		" RA",
+		"S  "
+	],
+	"key": {
+		"S": {
+			"item": "harmonicresonance:null_rod"
+		},
+		"Q": {
+			"item": "minecraft:quartz"
+		},
+		"E": {
+			"item": "minecraft:emerald"
+		},
+		"A": {
+			"item": "harmonicresonance:gem_amethyst"
+		},
+		"R": {
+			"item": "harmonicresonance:gem_ruby"
+		}
+	},
+	"result": {
+		"item": "harmonicresonance:absorber_configurer",
+		"count": 1
+	}
+}

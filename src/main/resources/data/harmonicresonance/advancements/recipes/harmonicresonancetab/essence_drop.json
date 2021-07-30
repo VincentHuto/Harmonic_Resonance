@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "harmonicresonance:essence_drop"
+    ]
+  },
+  "criteria": {
+    "has_somnolent_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "harmonicresonance:somnolent_powder"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "harmonicresonance:essence_drop"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_somnolent_powder",
+      "has_the_recipe"
+    ]
+  ]
+}

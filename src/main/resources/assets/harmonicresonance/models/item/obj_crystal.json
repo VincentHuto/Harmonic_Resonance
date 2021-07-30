@@ -1,0 +1,5 @@
+{
+	"parent":"forge:item/default",
+	"loader": "forge:obj",
+	"model": "harmonicresonance:models/block/obj_crystal.obj"
+}

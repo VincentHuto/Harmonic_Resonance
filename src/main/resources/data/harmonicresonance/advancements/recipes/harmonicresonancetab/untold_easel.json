@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "harmonicresonance:untold_easel"
+    ]
+  },
+  "criteria": {
+    "has_yellow_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "harmonicresonance:yellow_sign"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "harmonicresonance:untold_easel"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_yellow_sign",
+      "has_the_recipe"
+    ]
+  ]
+}

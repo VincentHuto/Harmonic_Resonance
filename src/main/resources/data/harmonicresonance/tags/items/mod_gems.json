@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"harmonicresonance:gem_amethyst",
+		"harmonicresonance:gem_ruby",
+		"harmonicresonance:gem_sapphire",
+		"harmonicresonance:gem_onyx",
+		"harmonicresonance:gem_topaz",
+		"harmonicresonance:gem_hematite",
+		"harmonicresonance:gem_opal"
+	]
+}

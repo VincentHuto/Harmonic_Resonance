@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side",
+  "textures": {
+    "pane": "harmonicresonance:block/phantasmal_pane",
+    "edge": "harmonicresonance:block/phantasmal_pane_top"
+  }
+}

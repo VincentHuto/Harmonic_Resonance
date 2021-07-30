@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "harmonicresonance:block/morel_cap" }
+    }
+}

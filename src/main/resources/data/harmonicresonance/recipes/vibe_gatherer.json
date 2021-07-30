@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    "ASA",
+    "OOO"
+  ],
+  "key": {
+    "A": {
+      "item": "harmonicresonance:activated_obsidian"
+    },
+    "O": {
+      "item": "harmonicresonance:contained_obsidian"
+    },
+    "S": {
+      "tag": "minecraft:logs"
+    },
+    "L": {
+      "item": "harmonicresonance:somnolent_leaves"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:vibe_gatherer"
+  }
+}

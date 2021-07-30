@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "harmonicresonance:mind_spike"
+    ]
+  },
+  "criteria": {
+    "has_null_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "harmonicresonance:null_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "harmonicresonance:mind_spike"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_null_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

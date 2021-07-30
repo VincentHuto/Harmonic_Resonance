@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "harmonicresonance:block/celestial_actuator"
+		},
+		"facing=south": {
+			"model": "harmonicresonance:block/celestial_actuator",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "harmonicresonance:block/celestial_actuator",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "harmonicresonance:block/celestial_actuator",
+			"y": 90
+		}
+	}
+}

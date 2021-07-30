@@ -1,0 +1,17 @@
+{
+  "config": {
+    "top_material": {
+      "Properties": {
+        "snowy": "false"
+      },
+      "Name": "harmonicresonance:somnolent_earth"
+    },
+    "under_material": {
+      "Name": "harmonicresonance:somnolent_stone"
+    },
+    "underwater_material": {
+      "Name": "harmonicresonance:somnolent_media"
+    }
+  },
+  "type": "minecraft:default"
+}

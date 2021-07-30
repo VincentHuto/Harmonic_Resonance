@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "harmonicresonance:somnolent_powder"
+    },
+    {
+      "item": "harmonicresonance:somnolent_powder"
+    },
+    {
+      "item": "harmonicresonance:somnolent_powder"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "harmonicresonance:channeling_rod"
+  }
+}

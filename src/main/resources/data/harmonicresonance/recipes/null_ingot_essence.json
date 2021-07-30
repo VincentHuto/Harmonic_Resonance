@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "harmonicresonance:anti_tear"
+        },
+        {
+            "item": "harmonicresonance:anti_tear"
+        },
+        {
+            "item": "harmonicresonance:anti_tear"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    ],
+    "result": {
+        "item": "harmonicresonance:null_ingot",
+        "count": 1
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "entity.colin.ambient" : {
+    "category" : "entity",
+    "subtitle" : "entity.colin.ambient",
+    "sounds" : [ {
+      "name" : "harmonicresonance:entity/colin/ambient",
+      "stream" : true
+    } ]
+  },
+  "entity.colin.hurt" : {
+    "category" : "entity",
+    "subtitle" : "entity.colin.hurt",
+    "sounds" : [ {
+      "name" : "harmonicresonance:entity/colin/hurt",
+      "stream" : true
+    } ]
+  },
+  "entity.colin.death" : {
+    "category" : "entity",
+    "subtitle" : "entity.colin.death",
+    "sounds" : [ {
+      "name" : "harmonicresonance:entity/colin/death",
+      "stream" : true
+    } ]
+  }
+}

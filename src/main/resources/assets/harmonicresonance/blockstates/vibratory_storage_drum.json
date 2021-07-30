@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "harmonicresonance:block/vibratory_storage_drum"
+		},
+		"facing=south": {
+			"model": "harmonicresonance:block/vibratory_storage_drum",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "harmonicresonance:block/vibratory_storage_drum",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "harmonicresonance:block/vibratory_storage_drum",
+			"y": 90
+		}
+	}
+}

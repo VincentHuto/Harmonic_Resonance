@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CFC",
+    "MNM",
+    "CGC"
+  ],
+  "key": {
+    "C": {
+      "item": "harmonicresonance:contained_crying_obsidian"
+    },
+    "N": {
+      "item": "harmonicresonance:contained_obsidian"
+    },
+    "M": {
+      "item": "harmonicresonance:contained_magma"
+    },
+    "G": {
+      "item": "harmonicresonance:gilded_wool"
+    },
+    "F": {
+      "item": "harmonicresonance:energy_focus"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:crystal_harmonizer"
+  }
+}

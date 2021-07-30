@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "harmonicresonance:crystal_harmonizer"
+    ]
+  },
+  "criteria": {
+    "has_contained_crying_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "harmonicresonance:contained_crying_obsidian"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "harmonicresonance:crystal_harmonizer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_contained_crying_obsidian",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "harmonicresonance:block/example_block"
+		}
+	}
+}

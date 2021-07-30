@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "harmonicresonance:block/vibe_gatherer"
+		},
+		"facing=south": {
+			"model": "harmonicresonance:block/vibe_gatherer",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "harmonicresonance:block/vibe_gatherer",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "harmonicresonance:block/vibe_gatherer",
+			"y": 90
+		}
+	}
+}

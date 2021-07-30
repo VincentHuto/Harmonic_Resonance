@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "NCN",
+    "RPR"
+  ],
+  "key": {
+    "N": {
+      "item": "harmonicresonance:contained_obsidian"
+    },
+    "F": {
+      "item": "harmonicresonance:energy_focus"
+    },
+    "C": {
+      "item": "harmonicresonance:somnolent_crystal"
+    },
+    "R": {
+      "item": "harmonicresonance:runed_obsidian"
+    },
+    "P": {
+      "item": "harmonicresonance:somnolent_powder"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:vibratory_extractor"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "OKQ",
+    "QQQ"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "K": {
+      "item": "harmonicresonance:karmic_drop"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:node_of_actualization"
+  }
+}

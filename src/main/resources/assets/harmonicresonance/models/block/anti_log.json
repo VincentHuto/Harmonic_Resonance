@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_column",
+    "textures":
+    {
+        "end": "harmonicresonance:block/anti_log_top",
+        "side": "harmonicresonance:block/anti_log"
+    }
+}

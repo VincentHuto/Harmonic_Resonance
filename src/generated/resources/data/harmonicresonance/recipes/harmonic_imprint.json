@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NON",
+    "GOG",
+    "NGN"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "harmonicresonance:nullifying_powder"
+    },
+    "O": {
+      "item": "harmonicresonance:gem_opal"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:harmonic_imprint"
+  }
+}

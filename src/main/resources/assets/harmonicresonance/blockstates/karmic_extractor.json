@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "harmonicresonance:block/karmic_extractor"
+		},
+		"facing=south": {
+			"model": "harmonicresonance:block/karmic_extractor",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "harmonicresonance:block/karmic_extractor",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "harmonicresonance:block/karmic_extractor",
+			"y": 90
+		}
+	}
+}

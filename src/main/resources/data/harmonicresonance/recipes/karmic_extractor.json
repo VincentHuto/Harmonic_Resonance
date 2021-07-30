@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ADA",
+        "AEA",
+        "NRN"
+    ],
+    "key": {
+        
+        "R": {
+            "item": "harmonicresonance:runed_obsidian"
+        },
+        "E": {
+            "item": "harmonicresonance:energy_focus"
+        },
+        "A": {
+            "item": "harmonicresonance:activated_obsidian"
+        },
+        "N": {
+            "item": "harmonicresonance:contained_obsidian"
+        },
+        "D": {
+            "item": "minecraft:dragon_egg"
+        }
+    },
+    "result": {
+        "item": "harmonicresonance:karmic_extractor",
+        "count": 1
+    }
+}

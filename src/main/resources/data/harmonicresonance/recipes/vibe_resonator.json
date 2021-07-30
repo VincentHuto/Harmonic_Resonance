@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FRF",
+    "NFN"
+  ],
+  "key": {
+    "N": {
+      "item": "harmonicresonance:contained_obsidian"
+    },
+    "F": {
+      "item": "harmonicresonance:energy_focus"
+    },
+    "R": {
+      "item": "harmonicresonance:activated_obsidian"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:vibe_resonator"
+  }
+}

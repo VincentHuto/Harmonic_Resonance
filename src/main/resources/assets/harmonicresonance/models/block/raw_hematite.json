@@ -1,0 +1,8 @@
+{
+  "parent":"forge:block/default",
+  "loader": "forge:obj",
+  "model": "harmonicresonance:models/block/raw_hematite.obj",
+  	"textures": {
+		"particle": "harmonicresonance:block/virtuous_enchanting_table_bottom"
+		}
+}

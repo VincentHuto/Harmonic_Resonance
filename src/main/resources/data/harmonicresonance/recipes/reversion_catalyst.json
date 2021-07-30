@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GEG",
+    "GOG",
+    "GNG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "harmonicresonance:nullifying_powder"
+    },
+    "O": {
+      "item": "harmonicresonance:gem_opal"
+    },
+    "E": {
+      "item": "harmonicresonance:essence_drop"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:reversion_catalyst"
+  }
+}

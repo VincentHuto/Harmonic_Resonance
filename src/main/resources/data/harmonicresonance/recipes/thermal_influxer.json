@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OAO",
+    "OFO",
+    "MTM"
+  ],
+  "key": {
+    "A": {
+      "item": "harmonicresonance:activated_obsidian"
+    },
+    "O": {
+      "item": "harmonicresonance:contained_obsidian"
+    },
+    "M": {
+      "item": "harmonicresonance:contained_magma"
+    },
+    "F": {
+      "item": "harmonicresonance:energy_focus"
+    },
+    "T": {
+      "item": "harmonicresonance:anti_tear"
+    }
+  },
+  "result": {
+    "item": "harmonicresonance:thermal_influxer"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "harmonicresonance:phantasmal_pane"
+    ]
+  },
+  "criteria": {
+    "has_phantasmal_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "harmonicresonance:phantasmal_glass"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "harmonicresonance:phantasmal_pane"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_phantasmal_glass",
+      "has_the_recipe"
+    ]
+  ]
+}
